@@ -1,1 +1,79 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f4f7fb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
 
+.container {
+  text-align: center;
+  background: white;
+  padding: 50px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  width: 120px;
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 12px;
+}
+
+h1 {
+  font-size: 48px;
+  color: #1a73e8;
+  margin-bottom: 20px;
+}
+
+.quote {
+  font-size: 20px;
+  color: #333;
+  font-style: italic;
+}
+
+.github-button {
+  margin-top: 20px;
+  padding: 12px 24px;
+  background-color: #24292e;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.github-button:hover {
+  background-color: #0366d6;
+}
+
+.pair-form {
+  margin-top: 30px;
+}
+
+.pair-form input {
+  padding: 10px;
+  font-size: 16px;
+  width: 200px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.pair-form button {
+  padding: 10px 20px;
+  background-color: #1a73e8;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.pair-form button:hover {
+  background-color: #0c59d1;
+}
